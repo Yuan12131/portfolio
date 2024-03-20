@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.main {
+    width: 100vw;
+    background-color: #27374D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    padding-bottom: 5vh;
+
+    >div:nth-child(1) {
+        font-size: 4rem;
+        text-align: center;
+        margin: 10vh 0 10vh 0;
+        font-weight: 900;
+        border-bottom: 1px solid white;
+        font-family: "Roboto Mono", monospace;
+        color: white;
+    }
+
+    >div:not(:nth-child(1)) {
+        width: 90vw;
+        height: 70vh;
+        border-radius: 20px;
+        background-color: white;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        >div:nth-child(1) {
+            font-size: 2rem;
+            text-align: center;
+
+            >p {
+                font-size: 1.2rem;
+            }
+        }
+
+        >div:nth-child(2) {
+            width: 90vw;
+            height: 60vh;
+            display: flex;
+            padding: 1vh 3vw 0 3vw;
+
+            >div:nth-child(1) {
+                width: 40vw;
+                height: 20vw;
+                background-image: url('/toui.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-right: 2vw;
+                padding: 10px;
+                background-color: #394a61;
+            }
+
+            >div:nth-child(2) {
+                width: 40vw;
+                height: 60vh;
+            }
+        }
+    }
+
+}
