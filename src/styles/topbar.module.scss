@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.topbar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 1000;
+  font-family: "Roboto Mono", monospace;
+
+  >div:nth-child(1) {
+    width: 60vw;
+    justify-content: flex-start;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 3vw;
+
+    >a {
+      color: #DDE6ED;
+      text-decoration: none;
+
+      &:hover {
+        color: #9DB2BF;
+      }
+    }
+  }
+
+  >div:nth-child(2) {
+    width: 40vw;
+    height: 10vh;
+    line-height: 5vh;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >a {
+      text-decoration: none;
+      color: #DDE6ED;
+      margin-left: 1vw;
+      width: 90px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+      border: 0;
+
+      &:hover {
+        color: #9DB2BF;
+      }
+    }
+  }
+}
+.topbar.background {
+  background-color: rgba(255, 255, 255, 0.887);
+  box-shadow: white 0 0 10px 0;
+  > div:nth-child(1) > a, > div:nth-child(2) > a {
+    color: #9DB2BF;
+    &:hover {
+      color: #526D82;
+    }
+  }
+}
