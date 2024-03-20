@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.main {
+    width: 100vw;
+    height: 55vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    padding-bottom: 5vh;
+
+    >div:nth-child(1) {
+        font-size: 4rem;
+        text-align: center;
+        margin: 3vh 0 3vh 0;
+        font-weight: 900;
+        border-bottom:1px solid #526D82;
+        font-family: "Roboto Mono", monospace;
+    }
+
+    >div:nth-child(2) {
+        width: 80vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 1.2rem;
+        color:#27374D;
+        padding-left: 15vw;
+
+        >div {
+            width: 30vw;
+            height: 8vh;
+            display: flex;
+            align-items: center;
+        }
+
+        >div:nth-child(1)>div {
+            width: 3vw;
+            height: 3vw;
+            background-image: url('/user.png');
+            background-size: cover;
+            background-position: center;
+            margin-right: 3vw;
+        }
+
+        >div:nth-child(2)>div {
+            width: 3vw;
+            height: 3vw;
+            background-image: url('/calendar.png');
+            background-size: cover;
+            margin-right: 3vw;
+            background-position: center;
+        }
+
+        >div:nth-child(3)>div {
+            width: 3vw;
+            height: 3vw;
+            background-image: url('/phone.png');
+            background-size: cover;
+            margin-right: 3vw;
+            background-position: center;
+        }
+
+        >div:nth-child(4)>div {
+            width: 3vw;
+            height: 3vw;
+            background-image: url('/email.png');
+            background-size: cover;
+            background-position: center;
+            margin-right: 3vw;
+
+        }
+    }
+}
