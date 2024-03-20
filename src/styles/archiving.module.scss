@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.main {
+    width: 100vw;
+    height: 65vh;
+    background-color: #526D82;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    padding-bottom: 10vh;
+
+    >div:nth-child(1) {
+        font-size: 4rem;
+        text-align: center;
+        margin: 5vh 0 3vh 0;
+        font-weight: 900;
+        border-bottom: 1px solid white;
+        font-family: "Roboto Mono", monospace;
+    }
+
+    >div:nth-child(2) {
+        width: 90vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >div {
+            width: 25vw;
+            height: 35vh;
+            background-color: white;
+            border-radius: 10px;
+            margin: 0 4vw 0 4vw;
+            color: #27374D;
+            padding: 2vw;
+
+            >div:nth-child(1) {
+                display: flex;
+                margin: 1vh 0 4vh 0;
+                line-height: 5vw;
+
+                >a {
+                    color: #526D82;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    margin: 0 0 0 2vw;
+                }
+                >div:nth-child(2){
+                    font-size: 2rem;
+                    font-weight: bold;
+                }
+            }
+            >div{
+                font-size: 1.1rem;
+                margin: 1vh 0 0 1vw;
+            }
+        }
+
+        >div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+            width: 5vw;
+            height: 5vw;
+            background-image: url('/github.png');
+            background-size: cover;
+            background-position: center;
+            margin-right: 2vw;
+        }
+
+        >div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+            width: 5vw;
+            height: 5vw;
+            background-image: url('/notion.png');
+            background-size: cover;
+            background-position: center;
+            margin-right: 2vw;
+        }
+    }
+}
