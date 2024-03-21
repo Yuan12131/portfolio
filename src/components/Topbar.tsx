@@ -34,7 +34,7 @@ function Topbar() {
   return (
     <div className={`${styles.topbar} ${showBackground ? styles.background : ''}`}>
       <div>
-        <Link href="/">LYA'S Portfolio</Link>
+        <Link href="/">LYA&lsquo;S Portfolio</Link>
       </div>
       <div>
         <Link href="#contact">Contact</Link>
