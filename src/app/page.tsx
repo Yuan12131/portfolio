@@ -1,36 +1,47 @@
 "use client";
 
 import styles from "../styles/home.module.scss";
-import Link from "next/link";
 import React, { useState } from "react";
 import Contact from "@/components/Contact";
-import Stack from "@/components/STack";
+import Stack from "@/components/Stack";
 import Project from "@/components/Project";
 import Archiving from "@/components/Archiving";
+import ModalBar from "@/components/Modal";
 
-export default function Home() {
+const Home = () => {
+  const [showNotion, setShowNotion] = useState(false);
+  const [notionPageId, setNotionPageId] = useState("");
+
+  const openModal = (pageId: string) => {
+    setNotionPageId(pageId); // Set the notion page id
+    setShowNotion(true); // Open the modal
+  };
+
   return (
     <div className={styles.main}>
       <div>
-          <div>
-            이유안 <br></br>풀 스택 웹 개발자
-          </div>
-          <div>
-            안녕하세요.<br></br>
-          </div>
+        <div>
+          이유안 <br></br>풀 스택 웹 개발자
+        </div>
+        <div>
+          안녕하세요.<br></br>
+        </div>
       </div>
       <div id="contact">
-        <Contact/>
+        <Contact />
       </div>
       <div id="archiving">
-        <Archiving/>
+        <Archiving />
       </div>
       <div>
-        <Project/>
+        {showNotion && <ModalBar setShowNotion={setShowNotion} notionPageId={notionPageId} />}
+        <Project setShowNotion={setShowNotion} openModal={openModal} />
       </div>
       <div>
-        <Stack/>
+        <Stack />
       </div>
     </div>
   );
 }
+
+export default Home
