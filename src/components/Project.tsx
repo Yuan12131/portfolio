@@ -214,7 +214,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 </Link>
                 <Link
                   href={
-                    "https://www.figma.com/embed?embed_host=notion&url=https://www.figma.com/file/wuktHFzNE6Tbrz8NyXRWLp/NTS---ERP-IA?type=design&node-id=0-1&mode=design&t=RbAlmsdVm6DZcEux-0"
+                    "https://www.figma.com/file/ssmr4mOMSDJnBwEinQ5jCU/signup-board-chat-IA-(Community)?type=whiteboard&t=271Z2JEUNC88FlCo-6"
                   }
                 >
                   <span>Figma</span>
