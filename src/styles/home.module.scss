@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
 .main {
     width: 100vw;
@@ -22,7 +22,9 @@
         >div:nth-child(1) {
             font-size: 4rem;
             text-align: center;
-            font-family: "Do Hyeon", "Roboto Mono", monospace;
+            font-family: "Black Han Sans", sans-serif;
+            font-weight: 900;
+            font-style: normal;
             margin-top: 5vh;
 
         }

@@ -21,7 +21,7 @@ const Home = () => {
     <div className={styles.main}>
       <div>
         <div>
-          이유안 <br></br>풀 스택 웹 개발자
+          이유안 <br></br><br></br>풀 스택 웹 개발자
         </div>
 
       </div>
