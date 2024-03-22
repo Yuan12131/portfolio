@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "@/styles/project2.module.scss";
+import styles from "@/styles/project.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import Slick from "react-slick";
