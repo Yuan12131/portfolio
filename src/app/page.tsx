@@ -23,9 +23,7 @@ const Home = () => {
         <div>
           이유안 <br></br>풀 스택 웹 개발자
         </div>
-        <div>
-          안녕하세요.<br></br>
-        </div>
+
       </div>
       <div id="contact">
         <Contact />
