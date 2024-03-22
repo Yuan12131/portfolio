@@ -22,7 +22,7 @@
 
     >div:not(:nth-child(1)) {
         width: 90vw;
-        height: 85vh;
+        height: 88vh;
         border-radius: 20px;
         background-color: white;
         margin-bottom: 5vh;
@@ -54,7 +54,7 @@
                 width: 45vw;
                 height: 25vw;
                 margin-right: 2vw;
-                margin-top: 5vh;
+                margin-top: 10vh;
                 background-color: #DDE6ED;
                 display: flex;
                 justify-content: center;
@@ -70,27 +70,26 @@
                 align-items: center;
 
                 >div:nth-child(1) {
-                    width: 20vw;
+                    width: 30vw;
                     height: 10vh;
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-around;
                     align-items: center;
                     margin-bottom: 1vh;
                     >a{
                         text-decoration: none;
                         font-weight: 900;
                         color: #27374D;
-                        margin: 0 4vw 1vh 0;
+                        margin: 0 0 1vh 0;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        width: 7vw;
                         font-size: 0.9rem;
                     }
 
                     a:nth-child(1) {
-                        margin: 0 4vw 1vh 0;
+                        margin: 0 0 1vh 0;
                         >div {
                             background-image: url('/url2.png');
                             height: 2.3vw;
@@ -103,7 +102,7 @@
                     }
 
                     >a:nth-child(2) {
-                        margin: 0 4vw 1vh 0;
+                        margin: 0 0 1vh 0;
                         >div {
                             background-image: url('/github.png');
                             height: 2.3vw;
@@ -123,6 +122,30 @@
                             width: 3vw;
                             background-position: center;
                             filter: contrast(50%);
+                            background-size: cover;
+                        }
+                    }
+                    >a:nth-child(4){
+                        margin: 0;
+                        >div {
+                            background-image: url('/figma.png');
+                            height: 3vw;
+                            width: 3vw;
+                            background-position: center;
+                            filter: contrast(80%);
+                            margin-top: 1vh;
+                            background-size: cover;
+                        }
+                    }
+                    >a:nth-child(5){
+                        margin: 0;
+                        >div {
+                            background-image: url('/notion.png');
+                            height: 2.5vw;
+                            width: 3vw;
+                            background-position: center;
+                            filter: contrast(80%);
+                            margin-top: 1vh;
                             background-size: cover;
                         }
                     }
