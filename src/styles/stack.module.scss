@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDE6ED;
+
+    >div:nth-child(1) {
+        font-size: 4rem;
+        text-align: center;
+        margin: 5vh 0 3vh 0;
+        font-weight: 900;
+        border-bottom: 1px solid white;
+        font-family: "Roboto Mono", monospace;
+        color:white;
+    }
+
+    >div:nth-child(2) {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >div:nth-child(1) {
+            height: 70vh;
+            width: 90vw;
+            background-image: url('/stack1.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            align-items: flex-start;
+        }
+
+            >div:nth-child(2) {
+                width: 90vw;
+                height: 60vh;
+                background-image: url('/stack2.png');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(3) {
+                width: 90vw;
+                height: 50vh;
+                background-image: url('/stack3.png');
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+    
+    }
+
+
+}
