@@ -6,7 +6,7 @@
 
     >div:nth-child(1) {
         position: relative;
-        height: 60vh;
+        height: 50vh;
         background-color: white;
         width: 100%;
         background-image: url('/main2.jpg');
@@ -16,24 +16,60 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         color: white;
 
         >div:nth-child(1) {
-            font-size: 4rem;
+            font-size: 3.6vw;
             text-align: center;
             font-family: "Black Han Sans", sans-serif;
             font-weight: 900;
             font-style: normal;
-            margin-top: 5vh;
-
+            margin-top: 3vh;
+            margin-bottom: 3vh;
+            line-height: 9vh;
         }
 
         >div:nth-child(2) {
             margin-top: 5vh;
-            font-size: 1.5rem;
+            font-size: 1.2vw;
             font-weight: 500;
             text-align: center;
+            display: flex;
+            width: 60vw;
+            justify-content: space-around;
+            margin-bottom: 5vh;
+            color: #dde6ed;
+
+            >div:nth-child(1),
+            >div:nth-child(2) {
+                display: flex;
+            }
+
+            >div:nth-child(1)>div:nth-child(1) {
+                width: 3.3vw;
+                height: 3.3vw;
+                background-image: url('/phone.png');
+                background-size: cover;
+                margin-right: 3vw;
+                opacity: 80%;
+                background-position: center;
+            }
+
+            >div:nth-child(1)>div:nth-child(2),
+            div:nth-child(2)>div:nth-child(2) {
+                text-align: left;
+            }
+
+            >div:nth-child(2)>div:nth-child(1) {
+                width: 3.3vw;
+                height: 3.3vw;
+                background-image: url('/email.png');
+                background-size: cover;
+                margin-right: 3vw;
+                background-position: center;
+                opacity: 80%;
+            }
         }
     }
 }
