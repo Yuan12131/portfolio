@@ -2,7 +2,6 @@
 
 import styles from "../styles/home.module.scss";
 import React, { useState } from "react";
-import Contact from "@/components/Contact";
 import Stack from "@/components/Stack";
 import Project from "@/components/Project";
 import Archiving from "@/components/Archiving";
@@ -21,18 +20,30 @@ const Home = () => {
     <div className={styles.main}>
       <div>
         <div>
-          이유안 <br></br><br></br>풀 스택 웹 개발자
+          이유안 <br></br>풀 스택 웹 개발자
         </div>
-
-      </div>
-      <div id="contact">
-        <Contact />
+        <div>
+          <div>
+            <div></div>
+            <div>
+              연락처<br></br>010-5526-0787
+              </div>
+          </div>
+          <div>
+            <div></div>
+            <div>
+            메일<br></br>dbdks32123@gmail.com
+            </div>
+          </div>
+        </div>
       </div>
       <div id="archiving">
         <Archiving />
       </div>
       <div>
-        {showNotion && <ModalBar setShowNotion={setShowNotion} notionPageId={notionPageId} />}
+        {showNotion && (
+          <ModalBar setShowNotion={setShowNotion} notionPageId={notionPageId} />
+        )}
         <Project setShowNotion={setShowNotion} openModal={openModal} />
       </div>
       <div>
@@ -40,6 +51,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
