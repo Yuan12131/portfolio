@@ -26,7 +26,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
     <div id="project">
       <div className={styles.main}>
         <div>PROJECT</div>
-        <div>
+        <div className={styles.pj}>
           <div>
             01 TOUI
             <p>2024.02.21-2024.03.10 | 개인프로젝트</p>
@@ -54,7 +54,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                   <div></div>
                 </Link>
               </div>
-              <div>
+              <div className={styles.text}>
                 <span
                   style={{
                     fontWeight: "900",
@@ -88,16 +88,16 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 onClick={() =>
                   handleShowNotion("940bda2d3591490d891df569d92b7489")
                 }
-                style={{ cursor: "pointer" }}
+                className={styles.go}
               >
-                👉&nbsp;&nbsp; 이어서 보기
+                👉&nbsp;&nbsp; 자세히 보기
               </div>
             </div>
           </div>
         </div>
-        <div>
+        <div className={styles.pj}>
           {" "}
-          <div>
+          <div >
             02 MUMUS
             <p>2024.01.29-2024.02.16 | 개인프로젝트</p>
           </div>
@@ -140,7 +140,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                   <div></div>
                 </Link>
               </div>
-              <div>
+              <div className={styles.text}>
                 <span
                   style={{
                     fontWeight: "900",
@@ -173,17 +173,17 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 작업이었습니다.
               </div>
               <div
+              className={styles.go}
                 onClick={() =>
                   handleShowNotion("3be5c96ce69940d1bb43561fca5cb6b3")
                 }
-                style={{ cursor: "pointer" }}
               >
-                👉&nbsp;&nbsp; 이어서 보기
+                👉&nbsp;&nbsp; 자세히 보기
               </div>
             </div>
           </div>
         </div>
-        <div>
+        <div className={styles.pj}>
           {" "}
           <div>
             03 ERP e-commerce
@@ -229,7 +229,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                   <div></div>
                 </Link>
               </div>
-              <div>
+              <div className={styles.text}>
                 <span
                   style={{
                     fontWeight: "900",
@@ -256,14 +256,14 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 onClick={() =>
                   handleShowNotion("3efe789c337240ca8f2a8df27d39a0ba")
                 }
-                style={{ cursor: "pointer" }}
+                className={styles.go}
               >
-                👉&nbsp;&nbsp; 이어서 보기
+                👉&nbsp;&nbsp; 자세히 보기
               </div>
             </div>
           </div>
         </div>
-        <div>
+        <div className={styles.pj}>
           {" "}
           <div>
             04 Community
@@ -301,7 +301,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                   <div></div>
                 </Link>
               </div>
-              <div>
+              <div className={styles.text}>
                 <span
                   style={{
                     fontWeight: "900",
@@ -323,14 +323,14 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 onClick={() =>
                   handleShowNotion("f9ea935f093a416293c409096dee5577")
                 }
-                style={{ cursor: "pointer" }}
+                className={styles.go}
               >
-                👉&nbsp;&nbsp; 이어서 보기
+                👉&nbsp;&nbsp; 자세히 보기
               </div>
             </div>
           </div>
         </div>
-        <div>
+        <div className={styles.pj}>
           {" "}
           <div>
             05 교육과정 히스토리
@@ -355,22 +355,22 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                   <div></div>
                 </Link>
               </div>
-              <div>
+              <div className={styles.text}>
                   <span style={{ color: "#27374D" }}>
                   &lsquo;지역인재 양성을 위한 IaaS기반 웹 서비스 개발자 과정&rsquo;을 수료하며 본격적인 프로젝트 작업 전에 
-                  정적인 웹 페이지부터 동적인 이벤트 처리와 서버 구축까지의 기록입니다. 수업 중 진행한 평가 과제와 배운 것을 활용하여 실습했던 기록으로 성장 과정을 확인할 수 있습니다.
+                  정적 웹 페이지부터 동적 웹 페이지와 서버 구축까지 작업한 기록입니다. 수업 중 배운 것을 활용하여 실습했던 기록으로 성장 과정을 확인할 수 있습니다.
                   </span>
                 <br></br>
                 <br></br>
-                <span style={{ color: "#4682A9" }}>HTML</span>과  <span style={{ color: "#4682A9" }}>CSS</span>를 처음 배우면서 웹 페이지의 마크업을, <span style={{ color: "#4682A9" }}>JavaScript</span>를 학습하며 동적인 웹을 구현할 수 있게 되었습니다. 이후에는 <span style={{ color: "#4682A9" }}>Node.js</span>로 서버를 구축하고, HTTP 요청을 통해 클라이언트와 서버 간의 통신 방법을 이해할 수 있었습니다. 이러한 기술들을 실습과 과제를 작업하면서 습득하여 웹 프로그래밍의 기반을 탄탄히 다질 수 있었습니다.
+                <span style={{ color: "#4682A9" }}>HTML</span>과  <span style={{ color: "#4682A9" }}>CSS</span>를 처음 배우면서 웹 페이지의 마크업을, <span style={{ color: "#4682A9" }}>JavaScript</span>를 학습하며 동적인 웹을 구현할 수 있게 되었습니다. 이후에는 <span style={{ color: "#4682A9" }}>Node.js</span>로 서버를 구축하고, HTTP 요청을 통해 클라이언트와 서버 간의 통신 방법을 이해할 수 있었습니다. 이러한 기술들을 실습과 과제를 작업하면서 습득하여 웹 프로그래밍의 기반을 다졌습니다.
               </div>
               <div
                 onClick={() =>
                   handleShowNotion("cd6e8640cf2d414483d1cf46b5ce6071")
                 }
-                style={{ cursor: "pointer" }}
+                className={styles.go}
               >
-                👉&nbsp;&nbsp; 이어서 보기
+                👉&nbsp;&nbsp; 자세히 보기
               </div>
             </div>
           </div>
