@@ -6,54 +6,380 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #DDE6ED;
+    background-color: white;
 
     >div:nth-child(1) {
-        font-size: 4rem;
+        font-size: 5vw;
         text-align: center;
         margin: 8vh 0 5vh 0;
         font-weight: 900;
-        border-bottom: 1px solid #27374D;
+        border-bottom: 1px solid #212A3E;
         font-family: "Roboto Mono", monospace;
-        color:#27374D;
+        color: #212A3E;
     }
 
     >div:nth-child(2) {
-        width: 100vw;
+        width: 90vw;
+        height: 85vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: #212A3E;
+        color: white;
+        border-radius: 10px;
 
         >div:nth-child(1) {
-            height: 70vh;
-            width: 90vw;
-            background-image: url('/stack1.png');
-            background-position: center;
-            background-size: contain;
-            background-repeat: no-repeat;
-            align-items: flex-start;
+            color: #212A3E;
+            font-family: "Roboto Mono", monospace;
+            font-size: 3.3vw;
+            margin: 5vh 0 3vh 0;
+            background-color: white;
+            border-radius: 5px;
+            padding: 0 1vw 0 1vw;
+            font-weight: 900;
         }
 
-            >div:nth-child(2) {
-                width: 90vw;
-                height: 60vh;
-                background-image: url('/stack2.png');
-                background-position: center;
+        >div:nth-child(2) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            >div {
+                display: flex;
+                background-color: white;
+                border-radius: 10px;
+                padding: 1vw;
+                color: #212A3E;
+                margin: 1vw;
+                flex-direction: column;
+                width: 19vw;
+                height: 27vh;
+
+                >div:nth-child(1) {
+                    display: flex;
+                    width: 20vw;
+
+                    >div:nth-child(2) {
+            font-family: "Roboto Mono", monospace;
+            font-weight: 500;
+                        font-size: 1.4vw;
+                        margin-left: 1vw;
+                        height: 6vh;
+                        line-height: 6vh;
+                        text-align: center;
+                    }
+                }
+
+                >div:nth-child(2) {
+                    margin-top: 3vh;
+                    color: #526D82;
+                    font-size: 1.1vw;
+                }
+            }
+
+            >div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/node.png');
                 background-size: contain;
+                background-position: center;
                 background-repeat: no-repeat;
             }
 
-            >div:nth-child(3) {
-                width: 90vw;
-                height: 50vh;
-                background-image: url('/stack3.png');
-                background-position: center;
+            >div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/mysql.png');
                 background-size: contain;
+                background-position: center;
                 background-repeat: no-repeat;
             }
-    
+
+            >div:nth-child(3)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/api.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(4)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/ec2.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(5)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/aws.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(6)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/aws.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(7)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/firebase.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(8)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/vercel.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
     }
 
+    >div:nth-child(3) {
+        width: 90vw;
+        height: 85vh;
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #212A3E;
+        color: white;
+        border-radius: 10px;
 
+        >div:nth-child(1) {
+            color: #212A3E;
+            font-family: "Roboto Mono", monospace;
+            font-size: 3.3vw;
+            margin: 5vh 0 3vh 0;
+            background-color: white;
+            border-radius: 5px;
+            padding: 0 1vw 0 1vw;
+            font-weight: 900;
+        }
+
+        >div:nth-child(2) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            >div {
+                display: flex;
+                background-color: white;
+                border-radius: 10px;
+                padding: 1vw;
+                color: #212A3E;
+                margin: 1vw;
+                flex-direction: column;
+                width: 25vw;
+                height: 27vh;
+
+                >div:nth-child(1) {
+                    display: flex;
+                    width: 20vw;
+
+                    >div:nth-child(2) {
+                        font-weight: 500;
+                        font-size: 1.4vw;
+                        margin-left: 2vw;
+                        height: 6vh;
+                        line-height: 6vh;
+                        font-family: "Roboto Mono", monospace;
+                        text-align: center;
+                    }
+                }
+
+                >div:nth-child(2) {
+                    margin-top: 3vh;
+                    color: #526D82;
+                    font-size: 1.1vw;
+                }
+            }
+
+            >div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/javascript.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/typescript.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(3)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/next.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(4)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/react.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(5)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/html.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(6)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/css.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+        }
+    }
+
+    >div:nth-child(4) {
+        width: 90vw;
+        height: 60vh;
+        display: flex;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #212A3E;
+        color: white;
+        border-radius: 10px;
+
+        >div:nth-child(1) {
+            color: #212A3E;
+            font-family: "Roboto Mono", monospace;
+            font-size: 3.3vw;
+            margin: 4vh 0 3vh 0;
+            background-color: white;
+            border-radius: 5px;
+            padding: 0 1vw 0 1vw;
+            font-weight: 900;
+        }
+
+        >div:nth-child(2) {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            >div {
+                display: flex;
+                background-color: white;
+                border-radius: 10px;
+                padding: 1vw;
+                color: #212A3E;
+                margin: 1vw;
+                flex-direction: column;
+                width: 16vw;
+                height: 30vh;
+
+                >div:nth-child(1) {
+                    display: flex;
+                    width: 20vw;
+
+                    >div:nth-child(2) {
+                        font-weight: 500;
+                        font-size: 1.4vw;
+                        margin-left: 1vw;
+                        height: 6vh;
+                        line-height: 6vh;
+                        font-family: "Roboto Mono", monospace;
+                        text-align: center;
+                    }
+                }
+
+                >div:nth-child(2) {
+                    margin-top: 3vh;
+                    color: #526D82;
+                    font-size: 1.1vw;
+                }
+            }
+
+            >div:nth-child(1)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/git.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(2)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/figma.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(3)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/vscode.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(4)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/notion.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            >div:nth-child(5)>div:nth-child(1)>div:nth-child(1) {
+                width: 3vw;
+                height: 6vh;
+                background-image: url('/slack.png');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+        }
+    }
 }
