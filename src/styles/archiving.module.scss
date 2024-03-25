@@ -1,59 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
 .main {
     width: 100vw;
-    height: 65vh;
-    background-color: #526D82;
+    height: 70vh;
+    background-color: #F1F6F9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: black;
     justify-content: center;
     padding-bottom: 10vh;
 
     >div:nth-child(1) {
-        font-size: 4rem;
+        font-size: 5vw;
         text-align: center;
-        margin: 5vh 0 3vh 0;
+        margin: 8vh 0 5vh 0;
         font-weight: 900;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid black;
         font-family: "Roboto Mono", monospace;
     }
 
     >div:nth-child(2) {
         width: 90vw;
-        height: 50vh;
+        height: 45vh;
         display: flex;
         align-items: center;
         justify-content: center;
 
         >div {
             width: 25vw;
-            height: 40vh;
+            height: 35vh;
             background-color: white;
             border-radius: 10px;
-            margin: 0 4vw 0 4vw;
-            color: #27374D;
+            margin: 3vh 4vw 0 4vw;
+            color: black;
             padding: 2vw;
 
             >div:nth-child(1) {
                 display: flex;
-                margin: 1vh 0 4vh 0;
-                line-height: 5vw;
+                margin: 1vh 0 2vh 0;
+                align-items: center;
+                justify-items: center;
+                width: 25vw;
 
                 >a {
-                    color: #526D82;
+                    color: white;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 1.3vw;
                     margin: 0 0 0 2vw;
                 }
-                >div:nth-child(2){
-                    font-size: 2rem;
+
+                >div:nth-child(2) {
+                    font-size: 2.2vw;
                     font-weight: bold;
                 }
             }
-            >div{
-                font-size: 1rem;
+            >a{
+                text-decoration: none;
+                >div{
+                    text-align: left;
+                    padding-left: 2vw;
+                    margin-bottom: 3vh;
+                    font-size: 1.2vw;
+                }
+            }
+            >div {
+                font-size: 1.2vw;
                 margin: 0 0 1vh 1vw;
             }
         }
