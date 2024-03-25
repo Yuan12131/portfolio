@@ -34,10 +34,9 @@ function Topbar() {
   return (
     <div className={`${styles.topbar} ${showBackground ? styles.background : ''}`}>
       <div>
-        <Link href="/">LYA&lsquo;S Portfolio</Link>
+        <Link href="/">LYA&rsquo;S Portfolio</Link>
       </div>
       <div>
-        <Link href="#contact">Contact</Link>
         <Link href="#archiving">Archiving</Link>
         <Link href="#project">Project</Link>
         <Link href="#stack">Stack</Link>
