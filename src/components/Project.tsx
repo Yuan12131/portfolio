@@ -84,14 +84,13 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 컴포넌트화하여 <span style={{ color: "#4682A9" }}>React</span>를
                 더욱 효율적으로 사용할 수 있었습니다.
               </div>
+              <Link href={"https://ubiquitous-ravioli-eff.notion.site/1-TOUI-d3fe682bd08d4316a890549453be0aed?pvs=4"}>
               <div
-                onClick={() =>
-                  handleShowNotion("940bda2d3591490d891df569d92b7489")
-                }
-                className={styles.go}
+              className={styles.go}
               >
                 👉&nbsp;&nbsp; 자세히 보기
               </div>
+                </Link>
             </div>
           </div>
         </div>
@@ -172,14 +171,13 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 전 과정을 직접 경험하고, 수행했다는 것에 의미가 큰
                 작업이었습니다.
               </div>
+              <Link href={"https://ubiquitous-ravioli-eff.notion.site/2-MUMUS-378159b63d45404abbc71d7f982a1309?pvs=4"}>
               <div
               className={styles.go}
-                onClick={() =>
-                  handleShowNotion("3be5c96ce69940d1bb43561fca5cb6b3")
-                }
               >
                 👉&nbsp;&nbsp; 자세히 보기
               </div>
+                </Link>
             </div>
           </div>
         </div>
@@ -214,7 +212,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 </Link>
                 <Link
                   href={
-                    "https://www.figma.com/file/ssmr4mOMSDJnBwEinQ5jCU/signup-board-chat-IA-(Community)?type=whiteboard&t=271Z2JEUNC88FlCo-6"
+                    "https://www.figma.com/embed?embed_host=notion&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FwuktHFzNE6Tbrz8NyXRWLp%2FNTS---ERP-IA%3Ftype%3Ddesign%26t%3DfYwruOHqqu3P3KTa-6"
                   }
                 >
                   <span>Figma</span>
@@ -252,14 +250,13 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 <br></br>
                 <span style={{ color: "#4682A9" }}>Next.js</span>에 <span style={{ color: "#4682A9" }}>Node.js</span>로 별도의 서버를 구축하며, React와 Next.js를 습득할 수 있었습니다. 그리고 <span style={{ color: "#4682A9" }}>MariaDB</span>를 활용하여 ERP/e-commerce와 같이 복잡한 시스템에서 필요한 관계형 데이터베이스의 구조를 이해할 수 있었습니다. 이 과정에서 협업을 위해 데이터베이스의 구조화 및 와이어프레임 설계와 Github 컨벤션을 맞추며 큰 규모의 웹 사이트를 개발할 수 있는 능력을 키우고, 팀 프로젝트를 효율적으로 수행하는 방법을 배울 수 있었습니다.
               </div>
+              <Link href={"https://ubiquitous-ravioli-eff.notion.site/3-ERP-8e544c1a63a14b3e9a09be133034885a?pvs=4"}>
               <div
-                onClick={() =>
-                  handleShowNotion("3efe789c337240ca8f2a8df27d39a0ba")
-                }
-                className={styles.go}
+              className={styles.go}
               >
                 👉&nbsp;&nbsp; 자세히 보기
               </div>
+                </Link>
             </div>
           </div>
         </div>
@@ -286,7 +283,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 <a></a>
                 <Link
                   href={
-                    "https://www.figma.com/community/file/1312020545724832462"
+                    "https://www.figma.com/file/ssmr4mOMSDJnBwEinQ5jCU/signup-board-chat-IA-(Community)?type=whiteboard&node-id=0%3A1&t=xwVGTzwlAbwNIvTE-1"
                   }
                 >
                   <span>Figma</span>
@@ -319,14 +316,13 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 <br></br>
                 <span style={{ color: "#4682A9" }}>MySQL</span>을 사용하여 회원, 게시판, 채팅 기능을 구현하며 데이터베이스의 CRUD를 이해할 수 있었습니다. 이 과정에서 <span style={{ color: "#4682A9" }}>Node.js</span>의 <span style={{ color: "#4682A9" }}>HTTP 요청과 응답</span>에 대한 처리 방법을 습득할 수 있는 기회가 되었으며, <span style={{ color: "#4682A9" }}>Web Socket</span>을 활용하여 실시간 통신에 대한 이해를 높일 수 있었습니다. 프론트엔드부터 백엔드까지 다양한 기능이 구현된 웹 사이트를 처음으로 완성해봄으로써 추후 프로젝트의 기반이 되었던 작업이라고 할 수 있습니다.
               </div>
+              <Link href={"https://ubiquitous-ravioli-eff.notion.site/4-COMMUNITY-214b7bcd45924ac6bdf7fac249295c72?pvs=4"}>
               <div
-                onClick={() =>
-                  handleShowNotion("f9ea935f093a416293c409096dee5577")
-                }
-                className={styles.go}
+              className={styles.go}
               >
                 👉&nbsp;&nbsp; 자세히 보기
               </div>
+                </Link>
             </div>
           </div>
         </div>
@@ -364,14 +360,13 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 <br></br>
                 <span style={{ color: "#4682A9" }}>HTML</span>과  <span style={{ color: "#4682A9" }}>CSS</span>를 처음 배우면서 웹 페이지의 마크업을, <span style={{ color: "#4682A9" }}>JavaScript</span>를 학습하며 동적인 웹을 구현할 수 있게 되었습니다. 이후에는 <span style={{ color: "#4682A9" }}>Node.js</span>로 서버를 구축하고, HTTP 요청을 통해 클라이언트와 서버 간의 통신 방법을 이해할 수 있었습니다. 이러한 기술들을 실습과 과제를 작업하면서 습득하여 웹 프로그래밍의 기반을 다졌습니다.
               </div>
+              <Link href={"https://ubiquitous-ravioli-eff.notion.site/4b2ca4af604d4dfbb272dd600e4066ec?pvs=4"}>
               <div
-                onClick={() =>
-                  handleShowNotion("cd6e8640cf2d414483d1cf46b5ce6071")
-                }
-                className={styles.go}
+              className={styles.go}
               >
                 👉&nbsp;&nbsp; 자세히 보기
               </div>
+                </Link>
             </div>
           </div>
         </div>
