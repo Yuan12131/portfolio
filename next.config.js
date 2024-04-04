@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
+// /** @type {import('next').NextConfig} */
 
-module.exports = {
-    typescript: {
-      ignoreBuildErrors: true,
-    },
-  }
+// module.exports = {
+//     typescript: {
+//       ignoreBuildErrors: true,
+//     },
+//   }
