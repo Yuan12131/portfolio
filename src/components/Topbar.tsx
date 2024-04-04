@@ -12,7 +12,7 @@ function Topbar() {
     const handleScroll = () => {
       const sections = ["contact", "Archiving", "project", "stack"];
       const currentSection = sections.find((section) => {
-        const element = document.getElementById(section);
+        const element: HTMLElement = document.getElementById(section)!;
         return element.getBoundingClientRect().top < window.innerHeight / 2;
       });
       setActiveSection(currentSection || "");
