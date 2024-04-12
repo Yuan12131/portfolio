@@ -272,15 +272,19 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
             </div>
             <div>
               <div>
-                <Link href={"http://43.202.241.98:8000/"}>
-                  <span>URL</span>
-                  <div></div>
-                </Link>
+                <a></a>
                 <Link href={"https://github.com/Yuan12131/signup-board-chat"}>
                   <span>Github</span>
                   <div></div>
                 </Link>
-                <a></a>
+                <Link
+                  href={
+                    "https://drive.google.com/file/d/1U37C4mh1BtreUsG5NOKB1YCxUZfZBO-0/view?usp=drive_link"
+                  }
+                >
+                  <span>Video</span>
+                  <div></div>
+                </Link>
                 <Link
                   href={
                     "https://www.figma.com/file/ssmr4mOMSDJnBwEinQ5jCU/signup-board-chat-IA-(Community)?type=whiteboard&node-id=0%3A1&t=xwVGTzwlAbwNIvTE-1"
