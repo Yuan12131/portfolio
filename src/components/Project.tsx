@@ -330,7 +330,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
             </div>
           </div>
         </div>
-        <div className={styles.pj}>
+        {/* <div className={styles.pj}>
           {" "}
           <div>
             05 교육과정 히스토리
@@ -373,7 +373,7 @@ const Project: React.FC<ProjectProps> = ({ setShowNotion, openModal }) => {
                 </Link>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
